@@ -1,43 +1,47 @@
-# 📦 Sistema de Controle de Estoque em C
+Calculadora de IMC em C
 
-Projeto desenvolvido para a disciplina de **Linguagem de Programação**, com o objetivo de aplicar conceitos fundamentais da linguagem C através da implementação de um sistema simples de controle de estoque.
+Projeto desenvolvido em **Linguagem C** para calcular o **Índice de Massa Corporal (IMC)** a partir do peso e da altura informados pelo usuário.
 
-## 📋 Funcionalidades
+## Funcionalidades
 
-- Cadastro de produtos
-- Registro de:
-  - Nome do produto
-  - Quantidade em estoque
-  - Preço unitário
-- Cálculo automático do valor total do estoque
-- Geração de relatório organizado no terminal
-- Validação de valores negativos
+- Recebe o peso do usuário (em kg)
+- Recebe a altura do usuário (em metros)
+- Calcula o Índice de Massa Corporal (IMC)
+- Exibe o resultado com duas casas decimais
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Linguagem C
-- Structs
-- Ponteiros
-- Aritmética de Ponteiros
-- Alocação Dinâmica de Memória (`malloc` e `free`)
-- Funções
-- Biblioteca Padrão da Linguagem C
+- Biblioteca padrão `stdio.h`
+-
+## Exemplo de Uso
 
+```
+Digite seu peso em quilos (use ponto, ex: 70.5): 72
+Digite sua altura em metros (use ponto, ex: 1.75): 1.75
 
-## 📚 Conceitos Aplicados
+Seu IMC e: 23.51
+```
 
-- Manipulação de `struct`
-- Ponteiros e aritmética de ponteiros
-- Alocação dinâmica de memória
-- Modularização com funções
+## Fórmula Utilizada
+
+O IMC é calculado pela fórmula:
+
+```
+IMC = Peso / (Altura × Altura)
+```
+
+## Conceitos Aplicados
+
 - Entrada e saída de dados
-- Validação de informações
-- Organização de código
+- Variáveis do tipo `float`
+- Operações matemáticas
+- Interação com o usuário pelo terminal
 
-## 🎯 Objetivo Acadêmico
+## Objetivo
 
-Este projeto foi desenvolvido para demonstrar a aplicação prática dos principais conceitos da linguagem C, utilizando boas práticas de organização e programação estruturada.
+Praticar os conceitos básicos da linguagem C, como leitura de dados, armazenamento em variáveis, cálculos matemáticos e exibição de resultados.
 
-## 👨‍💻 Autor
+## Autor
 
 **Pedro Lucas**
